@@ -9,7 +9,7 @@ class Cancion:
         print(f"Título: {self.titulo}")
         print(f"Artista: {self.artista}")
         print(f"Duración: {self.duracion} min")
-        print("Calificaciones de usuarios (matriz):")
+        print("Calificaciones de usuarios:")
         for fila in self.calificaciones_usuarios:
             print("  ", fila)
         print(f"Promedio de calificaciones: {self.promedio_calificaciones()}")
